@@ -1,5 +1,4 @@
 #include <cpp11.hpp>
-#include <cpp11/doubles.hpp>
 
 using namespace cpp11;
 
@@ -137,7 +136,7 @@ doubles_matrix<> XtXinvXtY(doubles_matrix<> XtXinv, doubles_matrix<> XtY)
 }
 
 [[cpp11::register]]
-doubles_matrix<> naive_ols(doubles_matrix<> X, doubles_matrix<> Y)
+doubles_matrix<> naive_ols_(doubles_matrix<> X, doubles_matrix<> Y)
 {
     // 1. Check dimensions
 

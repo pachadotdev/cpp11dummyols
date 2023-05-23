@@ -6,16 +6,16 @@
 #include <R_ext/Visibility.h>
 
 // cpp11_naive_ols.cpp
-doubles_matrix<> naive_ols(doubles_matrix<> X, doubles_matrix<> Y);
-extern "C" SEXP _cpp11naiveols_naive_ols(SEXP X, SEXP Y) {
+doubles_matrix<> naive_ols_(doubles_matrix<> X, doubles_matrix<> Y);
+extern "C" SEXP _cpp11naiveols_naive_ols_(SEXP X, SEXP Y) {
   BEGIN_CPP11
-    return cpp11::as_sexp(naive_ols(cpp11::as_cpp<cpp11::decay_t<doubles_matrix<>>>(X), cpp11::as_cpp<cpp11::decay_t<doubles_matrix<>>>(Y)));
+    return cpp11::as_sexp(naive_ols_(cpp11::as_cpp<cpp11::decay_t<doubles_matrix<>>>(X), cpp11::as_cpp<cpp11::decay_t<doubles_matrix<>>>(Y)));
   END_CPP11
 }
 
 extern "C" {
 static const R_CallMethodDef CallEntries[] = {
-    {"_cpp11naiveols_naive_ols", (DL_FUNC) &_cpp11naiveols_naive_ols, 2},
+    {"_cpp11naiveols_naive_ols_", (DL_FUNC) &_cpp11naiveols_naive_ols_, 2},
     {NULL, NULL, 0}
 };
 }
