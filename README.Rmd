@@ -20,6 +20,8 @@ knitr::opts_chunk$set(
 
 The goal of cpp11dummyols is to show how to use cpp11 and solve a specific Linear Algebra problem, which is to obtain the OLS estimator, in the most naive way Use this only for elemental examples, not for actual estimation. There is a good explanation about why R's lm() function uses a QR decomposition instead of a naive computation of the form (X'X)-1(X'Y) as I did here. See http://madrury.github.io/jekyll/update/statistics/2016/07/20/lm-in-R.html.
 
+This dummy package is a part of one of my [blog posts](https://pacha.dev/blog/2023/05/21/r-package-with-c-code-ubuntu/) where I explain step by step how to create an R package with C++ code.
+
 ## Installation
 
 You can install the development version of cpp11dummyols like so:
