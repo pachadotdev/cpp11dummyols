@@ -3,7 +3,7 @@ Title: Obtain the OLS estimator with a naive computation
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0003-1017-7574"))
 Description: This package was written to show how to use cpp11 and solve a specific 
     Linear Algebra problem, which is to obtain the OLS estimator, in the most naive\
     way.
