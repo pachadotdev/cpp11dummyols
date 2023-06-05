@@ -13,6 +13,7 @@ Description: This package was written to show how to use cpp11 and solve a speci
     instead of a naive computation of the form (X'X)-1(X'Y) as I did here.
     See http://madrury.github.io/jekyll/update/statistics/2016/07/20/lm-in-R.html.
     The goal of this package is to demonstrate some features of the cpp11 package.
+URL: https://pacha.dev/blog/2023/05/21/r-package-with-c-code-ubuntu/
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
