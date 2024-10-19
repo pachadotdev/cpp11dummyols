@@ -3,7 +3,7 @@
 
 # cpp11naiveols
 
-**All the Cpp11 + R examples were moved to https://github.com/pachadotdev/cpp11-r-examples**
+**All the Cpp11 + R examples were moved to [https://github.com/pachadotdev/cpp11-r-examples](https://github.com/pachadotdev/cpp11-for-r-users)**
 
 <!-- badges: start -->
 
